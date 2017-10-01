@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "google-protobuf": "^3.4.0"
+  },
+  "name": "tsd-protoc-gen",
+  "version": "0.0.1",
+  "description": "Generated tsd files from proto IDLs",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}

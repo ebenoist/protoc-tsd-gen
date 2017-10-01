@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message Track {
+  string duration = 1;
+  string position = 2;
+}
+
+enum Format {
+  VINYL = 0;
+  CD = 1;
+}
+
+message Album {
+  repeated string catalog_numbers = 1;
+  repeated bool compilation = 2;
+  repeated bytes sample = 3;
+  repeated Track tracks = 5;
+  Format format = 6;
+}
